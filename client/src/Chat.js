@@ -22,6 +22,7 @@ const Chat = () => {
             setStep(2);
         } else if (step === 2) {
             setOrderId(input);
+            console.log(orderId);
             const botMessage = { sender: 'bot', text: 'Thank you for sharing the details. Allow me 2 minutes to check the status of your order.' };
             setMessages([...messages, userMessage, botMessage]);
             setInput('');
