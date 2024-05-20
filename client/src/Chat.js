@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Chat.css';
-
+// eslint-disable-next-line no-unused-vars
 const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
