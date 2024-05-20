@@ -4,4 +4,5 @@
 ### node populateDB.js for pushing data to MongoDB Atlas inside backend folder.
 ### node index.js for starting backend.
 ### npm start inside frontend.
-![software-engineering](https://github.com/codearora/chatbot-order-delivery/assets/91114793/e04ff988-802f-4dd8-976b-78f9dc574e8d)
+
+![Screenshot (10)](https://github.com/codearora/chatbot-order-delivery/assets/91114793/55327090-46cd-4baa-aca5-ba06e7eae594)
