@@ -2,15 +2,18 @@
   "name": "chatbot-app-almachat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "start:backend": "node backend/index.js",
-    "start:frontend": "cd client && npm start"
+    "start:frontend": "cd client && npm start",
+    "install": "npm install && npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd client && npm install",
+    "install:backend": "cd backend && npm install"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^7.0.0",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0"
   }
 }
